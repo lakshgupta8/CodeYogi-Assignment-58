@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import ProductDetail from "./ProductDetailPage";
 import Filter from "./components/Filter";
 import ProductGrid from "./components/ProductGrid";
@@ -35,7 +33,6 @@ function HomePage() {
 
   return (
     <div>
-      <Navbar />
       <div className="bg-gray-100 py-10 px-10 sm:px-40 min-h-screen">
         <div className="bg-white flex flex-col p-12">
           <Filter query={query} sort={sort} onSearch={handleSearch} onSort={handleSort} />
@@ -43,7 +40,6 @@ function HomePage() {
           <Pagination />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

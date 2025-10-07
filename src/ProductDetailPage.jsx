@@ -3,8 +3,8 @@ import AddToCart from "./components/AddToCart";
 
 function ProductDetailPage() {
   return (
-    <div className="bg-gray-100 flex px-4 py-12 h-screen">
-      <div className="bg-white flex py-6 px-8 gap-3 flex-shrink">
+    <div className="bg-gray-100 flex px-4 py-12">
+      <div className="bg-white flex py-6 px-8 gap-3">
         <img
           className="w-1/2 object-contain bg-gray-100"
           src="https://m.media-amazon.com/images/I/610V6Qae3pL._UF894,1000_QL80_.jpg"
