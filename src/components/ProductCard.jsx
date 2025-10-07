@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function ProductCard({ title, category, price, originalPrice, image, isSale }) {
   return (
-    <Link to="/product/1">
+    <Link to="/product/1"> {/* Make the whole card a link to the detail page like amazon does, instead of the suggested view detail link */}
       <div className="bg-white">
         <div className="relative pt-6">
           <img
