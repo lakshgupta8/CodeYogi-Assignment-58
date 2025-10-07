@@ -10,7 +10,7 @@ function Pagination() {
         2
       </button>
       <button className="bg-white text-center text-red-600 border-red-600 border-1 h-8 w-8 focus:text-white focus:bg-red-600">
-        &raquo;
+        {"\u2192"}
       </button>
     </div>
   );

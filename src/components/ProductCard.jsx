@@ -9,7 +9,7 @@ function ProductCard({ title, category, price, originalPrice, image, isSale }) {
           <img
             src={image}
             alt={title}
-            className="w-80 h-80 object-cover mb-3"
+            className="w-80 h-80 object-contain bg-gray-100 mb-3"
           />
           {isSale == "true" && (
             <span className="absolute top-2 right-0 rounded-full bg-red-500 text-black font-bold text-xs px-1 py-2.5 z-10">

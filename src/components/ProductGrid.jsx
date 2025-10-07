@@ -8,12 +8,7 @@ function ProductGrid({ products }) {
               return (
                 <ProductCard
                   key={item.id}
-                  title={item.title}
-                  category={item.category}
-                  price={item.price}
-                  originalPrice={item.originalPrice}
-                  image={item.image}
-                  isSale={item.isSale}
+                  {...item}
                 />
               );
             })}
